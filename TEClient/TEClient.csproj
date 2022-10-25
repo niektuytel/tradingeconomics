@@ -1,0 +1,31 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Client.cs" />
+    <Compile Remove="Methods\Calendar\Samples.cs" />
+    <Compile Remove="Methods\Comtrade\Samples.cs" />
+    <Compile Remove="Methods\Earnings\Sample.cs" />
+    <Compile Remove="Methods\Earnings\Samples.cs" />
+    <Compile Remove="Methods\FederalReserve\Samples.cs" />
+    <Compile Remove="Methods\Forecast\Samples.cs" />
+    <Compile Remove="Methods\Indicator\Samples.cs" />
+    <Compile Remove="Methods\LatestUpdates\Samples.cs" />
+    <Compile Remove="Methods\Markets\Samples.cs" />
+    <Compile Remove="Methods\News\Samples.cs" />
+    <Compile Remove="Methods\Ratings\Samples.cs" />
+    <Compile Remove="Methods\WorldBank\Samples.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="JsonConverter.Abstractions" Version="0.3.0" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+    <PackageReference Include="RestSharp" Version="108.0.2" />
+  </ItemGroup>
+
+</Project>
